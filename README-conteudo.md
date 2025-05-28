@@ -105,7 +105,7 @@ Representa sequências de caracteres, como `"Olá, mundo!"`. Você pode usar asp
 Não existe `char` em JS ou TS. O tipo principal para representar caracteres individuais é o tipo `string`, que representa sequências de caracteres.
 
 ```typescript
-// Para acessar o primeiro caractere de uma string,
+// Para acessar o primeiro caractere de interfaceuma string,
 // você pode usar a notação de colchetes com o índice dentro :
 // OBS: o índice começa em 0 😬
 const palavra: string = 'Hello';
@@ -220,7 +220,7 @@ console.log(pessoa['idade']) // 30
 Em TypeScript, é possível criar tipos personalizados de objetos usando interfaces.
 
 ```typescript
-interface Pessoa {
+type Pessoa {
     nome: string;
     idade: number;
 }
